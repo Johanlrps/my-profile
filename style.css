@@ -1,0 +1,82 @@
+div {
+	background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+border: 1px #C91ea3 ;
+width: 400px;     /* Fix the width first*/
+margin: 20px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+body {
+  background-color: #F8dff2;
+  color: #C91ea3;
+  text-align: justify
+}
+h1, h2, h3 {
+   font-family: 'Arial Black', serif;
+   width: 300px;
+  margin: auto;
+}
+
+h1 {
+	color: #fb8b24;
+	font-weight: bold;
+    font-weight: 900;
+    width: 400px;
+}
+h2 {
+   color: #fb8b24;
+   font-size: 24px;
+   font-weight: lighter;
+   font-weight: 300;
+
+}
+
+a  {
+   text-decoration: none;
+   color: pink;
+}
+
+a:hover {
+   color: orange;
+}
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+  border: 3px solid #C91ea3;
+   width: 110px;
+	height:110px;
+	display: block;
+  width: 30%;
+  margin: auto;
+}
+#div {
+	background: #F8dff2;                       
+padding: 0px;                            
+border-radius: 0px;                    
+box-shadow: 0 0px 0px #F8dff2;   
+border: 0px #F8dff2 ;
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+.btn-pink {
+	background-color: #C91ea3
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+	width: 300px;
+  margin: auto;
+}
+.btn-pink:hover {
+	background-color: #fb8b24
+	color: white;
+}
